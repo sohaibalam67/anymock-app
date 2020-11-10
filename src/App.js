@@ -1,5 +1,7 @@
+import Editor from "./pages/Editor";
+
 function App() {
-  return <div></div>;
+  return <Editor />;
 }
 
 export default App;
