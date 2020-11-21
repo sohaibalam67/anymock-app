@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
 // components
-import MenuItem from "./MenuItem";
+import MenuItem from './MenuItem';
 
 // assets
-import { ReactComponent as Logo } from "../../assets/images/logo.svg";
-import { ReactComponent as SaveIcon } from "../../assets/images/icons/app/save.svg";
-import { ReactComponent as HotkeysIcon } from "../../assets/images/icons/app/book.svg";
-import { ReactComponent as ImportIcon } from "../../assets/images/icons/app/import.svg";
-import { ReactComponent as ResetIcon } from "../../assets/images/icons/app/refresh.svg";
+import {ReactComponent as Logo} from '../../assets/images/logo.svg';
+import {ReactComponent as SaveIcon} from '../../assets/images/icons/app/save.svg';
+import {ReactComponent as HotkeysIcon} from '../../assets/images/icons/app/book.svg';
+import {ReactComponent as ImportIcon} from '../../assets/images/icons/app/import.svg';
+import {ReactComponent as ResetIcon} from '../../assets/images/icons/app/refresh.svg';
 
 const Topbar = () => (
-  <div className="h-16 w-full flex items-center justify-between bg-charcoal-dark border-b border-charcoal-light">
+  <div className="h-16 w-full flex items-center justify-between bg-panel-dark border-b border-panelBorder-dark">
     <div className="ml-4 mr-12 w-12 flex items-center justify-center">
       <Logo height={32} width={32} />
     </div>

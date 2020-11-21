@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+.eslintcache
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# OSX
+.DS_Store
+
+.idea
+npm-debug.log.*
+
+# Package.json
+package.json
+package.lock.json
+
+**/*.test.js
+tailwind.config.js
+./src/styles/*
+./src/assets/*

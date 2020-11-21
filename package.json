@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
     "fabric": "^4.2.0",
     "lodash": "^4.17.20",
+    "postcss": "^8.1.8",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-color": "^2.19.3",
     "react-dom": "^17.0.1",
-    "react-dropzone": "^11.2.3",
+    "react-dropzone": "^11.2.4",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
@@ -26,7 +28,9 @@
     "build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**/*.js'",
+    "format": "prettier --write \"src/**/*.+(js|jsx)\""
   },
   "eslintConfig": {
     "extends": [
@@ -47,8 +51,26 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^8.2.0",
-    "tailwindcss": "^1.9.6"
+    "autoprefixer": "^10.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^3.10.1",
+    "husky": "^4.3.0",
+    "postcss-cli": "^8.3.0",
+    "prettier": "^2.2.0",
+    "tailwindcss": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format"
+    }
   }
 }
