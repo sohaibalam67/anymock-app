@@ -7,7 +7,7 @@ import WorkArea from '../../components/WorkArea';
 import RightPane from '../../components/RightPane';
 
 const Editor = () => (
-  <div className="w-screen h-screen dark">
+  <div className="w-screen h-screen">
     <Topbar />
     <div className="flex">
       <LeftPane />

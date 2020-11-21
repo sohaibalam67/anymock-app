@@ -5,7 +5,7 @@ const MenuItem = (props) => {
   let {icon = '💥', title = 'Item', ...rest} = props;
   return (
     <button
-      className="w-12 h-12 flex flex-col items-center justify-center text-white text-xs focus:outline-none"
+      className="w-12 h-12 flex flex-col items-center justify-center text-black text-xs focus:outline-none dark:text-white"
       {...rest}
     >
       {icon}

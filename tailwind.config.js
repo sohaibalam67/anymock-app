@@ -28,11 +28,11 @@ module.exports = {
       pink: colors.pink,
       panel: {
         dark: "#151515",
-        light: "#f2f2f2",
+        light: "#FAFAFA",
       },
       panelBorder: {
         dark: "#242424",
-        light: "#f7f7f7",
+        light: "#E4E4E7",
       }
     },
     spacing: {
