@@ -25,7 +25,7 @@ const Topbar = () => (
       />
     </div>
     <div className="mr-4">
-      <button className="text-white text-sm font-bold bg-blue-600 px-8 py-2 rounded-full focus:outline-none">
+      <button className="text-white text-xs font-bold bg-blue-600 px-8 py-2 rounded-md focus:outline-none">
         Export
       </button>
     </div>

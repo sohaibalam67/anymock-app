@@ -2,6 +2,7 @@ import React from 'react';
 
 // components
 import ObjectButton from './ObjectButton';
+import SectionTitle from '../commons/SectionTitle';
 
 // assets
 import Browser from '../../assets/images/icons/browser';
@@ -19,7 +20,7 @@ const LeftPane = () => (
     className="h-screen w-64 text-gray-800 dark:text-white bg-panel-light dark:bg-panel-dark"
     style={{height: 'calc(100vh - 4rem)'}}
   >
-    <div className="grid grid-cols-3 gap-3 p-3">
+    <div className="grid grid-cols-3 gap-1 p-3">
       <ObjectButton icon={<Browser height={22} width={22} />} title="Browser" />
       <ObjectButton icon={<Phone height={22} width={22} />} title="Phone" />
       <ObjectButton icon={<Laptop height={22} width={22} />} title="Laptop" />
@@ -29,6 +30,14 @@ const LeftPane = () => (
       <ObjectButton icon={<Text height={22} width={22} />} title="Text" />
       <ObjectButton icon={<Image height={22} width={22} />} title="Image" />
       <ObjectButton icon={<Shape height={22} width={22} />} title="Shape" />
+    </div>
+    <div className="p-3 shadow-thin-b-light dark:shadow-thin-b-dark">
+      <button className="text-white text-xs font-medium bg-blue-600 w-full py-2 rounded-md focus:outline-none">
+        Choose a template
+      </button>
+    </div>
+    <div className="p-3">
+      <SectionTitle>LAYERS</SectionTitle>
     </div>
   </div>
 );
