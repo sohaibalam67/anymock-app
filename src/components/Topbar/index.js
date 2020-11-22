@@ -11,7 +11,7 @@ import QuestionMark from '../../assets/images/icons/questionMark';
 import {ReactComponent as Logo} from '../../assets/images/logo.svg';
 
 const Topbar = () => (
-  <div className="h-16 w-full flex items-center justify-between bg-panel-light dark:bg-panel-dark border-b border-panelBorder-light dark:border-panelBorder-dark">
+  <div className="h-16 w-full flex items-center justify-between bg-panel-light shadow-thin-b-light dark:bg-panel-dark dark:shadow-thin-b-dark z-10">
     <div className="ml-4 mr-12 w-12 flex items-center justify-center">
       <Logo height={32} width={32} />
     </div>

@@ -30,10 +30,6 @@ module.exports = {
         dark: "#151515",
         light: "#FAFAFA",
       },
-      panelBorder: {
-        dark: "#242424",
-        light: "#E4E4E7",
-      }
     },
     spacing: {
       px: '1px',
@@ -132,6 +128,8 @@ module.exports = {
       8: '8px',
     },
     boxShadow: {
+      'thin-b-light': '0 1px 0 0 #e5e5e5',
+      'thin-b-dark': '0 1px 0 0 #242424',
       sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
       DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
       md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
@@ -760,7 +758,7 @@ module.exports = {
     borderRadius: ['responsive'],
     borderStyle: ['responsive'],
     borderWidth: ['responsive'],
-    boxShadow: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
+    boxShadow: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
     boxSizing: ['responsive'],
     clear: ['responsive'],
     container: ['responsive'],

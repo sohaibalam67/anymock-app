@@ -16,8 +16,8 @@ import Shape from '../../assets/images/icons/shape';
 
 const LeftPane = () => (
   <div
-    className="h-screen w-64 text-gray-800 dark:text-white bg-panel-light dark:bg-panel-dark border-r border-panelBorder-light dark:border-panelBorder-dark"
-    style={{height: 'calc((100vh - 4rem) - 1px)'}}
+    className="h-screen w-64 text-gray-800 dark:text-white bg-panel-light dark:bg-panel-dark"
+    style={{height: 'calc(100vh - 4rem)'}}
   >
     <div className="grid grid-cols-3 gap-3 p-3">
       <ObjectButton icon={<Browser height={22} width={22} />} title="Browser" />
