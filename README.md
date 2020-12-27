@@ -60,4 +60,5 @@ All the major hotkeys are supported, with more hotkeys being added as the app de
 Here is what you should be able to do when the app is finished with basic features.
 
 ![final shot](https://pbs.twimg.com/media/Em32_GDVQAA-7xc?format=jpg&name=large)
+<img alt="Anymock Readme" src="https://sohaibalam67-github.herokuapp.com/readme/github?id=anymock_app_readme" />
 
