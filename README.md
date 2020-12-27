@@ -3,8 +3,11 @@
 </p>
 <h1 align="center">Anymock</h1>
 
+Create amazing device mockups blazingly fast. Just choose a frame, drop in your screenshot, arrange if you want to, and done🎉.
+
 The project is currently being migrated from [Anymock repo](https://github.com/sohaibalam67/anymock).
-Here is a link if you want to try the old app: [Try now](https://anymock-beta-test.netlify.app/). That was just a POC, so try it in Chrome for better perf.
+
+Here is a link if you want to try the old app: [Try now](https://anymock-beta-test.netlify.app/). _(That was just a POC, so try it in Chrome for better perf)_
 
 To know more about it, follow [this link](https://twitter.com/sohaibalam67/status/1327944927469203457)
 
@@ -13,7 +16,7 @@ To know more about it, follow [this link](https://twitter.com/sohaibalam67/statu
 
 # I wanna know more! 😬
 ### Dribbble shot
-Add multiple devices on the same canvas to create a nice dribbble shot. Templates support is not yet available now, but when it ships, creating a dribbble shot would be trivially easy. For now, you'll have to arrange devices on canvas on your own.
+Add multiple devices on the same canvas to create a nice dribbble shot. Templates support is not available yet, but when it ships, creating a dribbble shot would be trivially easy. For now, you'll have to arrange devices on canvas on your own.
 
 ![dribbble shot](https://pbs.twimg.com/media/Em3ES8ZUcAEI1BR?format=jpg&name=large)
 
