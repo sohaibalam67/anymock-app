@@ -13,6 +13,9 @@ To know more about it, follow [this link](https://twitter.com/sohaibalam67/statu
 
 [Here](https://github.com/sohaibalam67/mockup-experiment) is me, experimenting before building it.
 
+![GitHub](https://img.shields.io/github/license/sohaibalam67/anymock-app)
+![GitHub last commit](https://img.shields.io/github/last-commit/sohaibalam67/anymock-app)
+
 
 # I wanna know more! 😬
 ### Dribbble shot
@@ -60,5 +63,5 @@ All the major hotkeys are supported, with more hotkeys being added as the app de
 Here is what you should be able to do when the app is finished with basic features.
 
 ![final shot](https://pbs.twimg.com/media/Em32_GDVQAA-7xc?format=jpg&name=large)
-<img alt="Anymock Readme" src="https://sohaibalam67-github.herokuapp.com/readme/github?id=anymock_app_readme" />
+<img alt="" src="https://sohaibalam67-github.herokuapp.com/readme/github?id=anymock_app_readme" />
 
